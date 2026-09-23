@@ -4,6 +4,7 @@ export const normalize = text => text.normalize('NFKC').toLowerCase().replace(/�
 const test = (pattern,text) => new RegExp(pattern,'u').test(text);
 const highest = values => levels[Math.max(0,...values.map(x=>levels.indexOf(x)))];
 const efficacy = /皺紋|細紋|紋路|撫紋|膠原|平滑|光滑|細緻|透亮|光澤|光采|明亮|效能|抗老|抗皺|改善|消除|保濕|美白|緊緻/;
+const safeCosmetic = /日常保養|持續保養|肌膚(?:感覺清爽柔嫩|維持柔嫩舒適|維持良好狀態|看起來更平滑)/;
 const quantities = text => normalize(text).match(/(?:\d+(?:\.\d+)?|十二|七|五)(?:周|天|日|次|倍|%)/g)||[];
 
 export function splitClaims(text) {
@@ -73,7 +74,7 @@ export function analyze({text,product_id='ART-TW-0001',platform='PUBLIC_SOCIAL',
   } else if(quantities(part.text).length) {
    add('R-TIME-CONTEXT','注意','單獨時間或數字不直接表示違規；請確認是否與照片、前後段功效形成關聯。','認定準則第2條：整體表現',['advertising-rules']);
   }
-  if(official.status==='not_found'&&!findings.length) add('R-COVERAGE','注意','此句需要依現行法規判斷整體語境；工具不提供品牌官方文案比對。','認定準則第2條：圖文整體表現',['advertising-rules']);
+  if(official.status==='not_found'&&!findings.length&&!safeCosmetic.test(n)) add('R-COVERAGE','注意','此句需要依現行法規判斷整體語境；工具不提供品牌官方文案比對。','認定準則第2條：圖文整體表現',['advertising-rules']);
   if(official.status==='related'&&!findings.length) add('R-PARAPHRASE','注意','找到相近概念，但整句可能有額外意義；請核對官方原文與適用條件。','語意比對的不確定性',official.matched_claims.map(c=>c.source_id));
   if(!findings.length) add('R-BASELINE','低','已收錄官方原句，本次文字規則未發現較高風險；仍須確認真實性與整體表現。','認定準則第2、4條；附件二第六類例示',['advertising-rules','annex-2']);
   return {id:`claim-${index+1}`,...part,official,findings,risk:highest(findings.map(f=>f.level))};

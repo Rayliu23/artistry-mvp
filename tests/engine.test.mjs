@@ -58,4 +58,5 @@ test('rewrite removes unverified time and absolute wrinkle promise',()=>{const r
 test('duration paraphrase uses conservative cosmetic wording',()=>{const r=run('使用12週，肌膚看起來更加平滑，皺紋明顯減少');assert.doesNotMatch(r.suggestion.text,/12週|明顯減少|皺紋/);assert.match(r.suggestion.text,/持續保養|良好狀態/);});
 test('unknown text gets a rule-based cosmetic rewrite',()=>{const r=run('我用了三天，濕疹已根治');assert.doesNotMatch(r.suggestion.text,/我|根治|三天/);assert.ok(r.suggestion.edits.every(e=>e.replacement));});
 test('text-only rewrite no longer carries an image reminder',()=>{const r=run('12週撫平皺紋');assert.equal(r.coverage,'text_only');assert.doesNotMatch(r.suggestion.note,/圖片尚未分析/);});
+test('generated conservative copy rechecks as low risk',()=>{const r=run('痘痘肌明顯改善');const checked=run(r.suggestion.text);assert.equal(checked.risk,'低');});
 test('rewrite deduplicates and cites the current advertising rule',()=>{const r=run('光滑細緻，肌膚平滑');assert.equal((r.suggestion.text.match(/清爽柔嫩/g)||[]).length,1);assert.deepEqual(r.suggestion.source_ids,['advertising-rules']);});
