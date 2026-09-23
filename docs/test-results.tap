@@ -1,0 +1,280 @@
+TAP version 13
+# Subtest: 刺激膠原蛋白大量增生 → 高
+ok 1 - 刺激膠原蛋白大量增生 → 高
+  ---
+  duration_ms: 4.2771
+  type: 'test'
+  ...
+# Subtest: 促進膠原蛋白合成 → 高
+ok 2 - 促進膠原蛋白合成 → 高
+  ---
+  duration_ms: 0.3388
+  type: 'test'
+  ...
+# Subtest: 膠原蛋白大量再生 → 高
+ok 3 - 膠原蛋白大量再生 → 高
+  ---
+  duration_ms: 0.2594
+  type: 'test'
+  ...
+# Subtest: 12週 → 注意
+ok 4 - 12週 → 注意
+  ---
+  duration_ms: 0.2215
+  type: 'test'
+  ...
+# Subtest: 使用12週，撫平皺紋 → 中度
+ok 5 - 使用12週，撫平皺紋 → 中度
+  ---
+  duration_ms: 0.4615
+  type: 'test'
+  ...
+# Subtest: １２週撫平皺紋 → 中度
+ok 6 - １２週撫平皺紋 → 中度
+  ---
+  duration_ms: 0.1617
+  type: 'test'
+  ...
+# Subtest: 十二週撫平皺紋 → 中度
+ok 7 - 十二週撫平皺紋 → 中度
+  ---
+  duration_ms: 0.1799
+  type: 'test'
+  ...
+# Subtest: 徹底消除皺紋 → 高
+ok 8 - 徹底消除皺紋 → 高
+  ---
+  duration_ms: 0.1591
+  type: 'test'
+  ...
+# Subtest: 12週徹底消除皺紋 → 高
+ok 9 - 12週徹底消除皺紋 → 高
+  ---
+  duration_ms: 0.1703
+  type: 'test'
+  ...
+# Subtest: 皺紋完全消失 → 高
+ok 10 - 皺紋完全消失 → 高
+  ---
+  duration_ms: 0.2244
+  type: 'test'
+  ...
+# Subtest: 撫平皺紋 → 低
+ok 11 - 撫平皺紋 → 低
+  ---
+  duration_ms: 0.1557
+  type: 'test'
+  ...
+# Subtest: 膚質光滑細緻 → 低
+ok 12 - 膚質光滑細緻 → 低
+  ---
+  duration_ms: 0.1486
+  type: 'test'
+  ...
+# Subtest: 肌膚摸起來更滑順 → 注意
+ok 13 - 肌膚摸起來更滑順 → 注意
+  ---
+  duration_ms: 0.141
+  type: 'test'
+  ...
+# Subtest: 淡化細紋 → 注意
+ok 14 - 淡化細紋 → 注意
+  ---
+  duration_ms: 0.0889
+  type: 'test'
+  ...
+# Subtest: 5倍A醇效能 → 中度
+ok 15 - 5倍A醇效能 → 中度
+  ---
+  duration_ms: 0.1139
+  type: 'test'
+  ...
+# Subtest: 7次有感撫紋 → 中度
+ok 16 - 7次有感撫紋 → 中度
+  ---
+  duration_ms: 0.1002
+  type: 'test'
+  ...
+# Subtest: 7天有感撫紋 → 中度
+ok 17 - 7天有感撫紋 → 中度
+  ---
+  duration_ms: 0.1036
+  type: 'test'
+  ...
+# Subtest: 9倍A醇效能 → 中度
+ok 18 - 9倍A醇效能 → 中度
+  ---
+  duration_ms: 0.0946
+  type: 'test'
+  ...
+# Subtest: 促進真皮層膠原蛋白大量增生 → 高
+ok 19 - 促進真皮層膠原蛋白大量增生 → 高
+  ---
+  duration_ms: 0.0865
+  type: 'test'
+  ...
+# Subtest: 深入真皮層修復肌膚 → 高
+ok 20 - 深入真皮層修復肌膚 → 高
+  ---
+  duration_ms: 0.0893
+  type: 'test'
+  ...
+# Subtest: 治療濕疹 → 高
+ok 21 - 治療濕疹 → 高
+  ---
+  duration_ms: 0.0858
+  type: 'test'
+  ...
+# Subtest: 完全安全零風險 → 中度
+ok 22 - 完全安全零風險 → 中度
+  ---
+  duration_ms: 0.0836
+  type: 'test'
+  ...
+# Subtest: 不能消除皺紋 → 注意
+ok 23 - 不能消除皺紋 → 注意
+  ---
+  duration_ms: 0.0904
+  type: 'test'
+  ...
+# Subtest: 不會不消除皺紋 → 高
+ok 24 - 不會不消除皺紋 → 高
+  ---
+  duration_ms: 0.0884
+  type: 'test'
+  ...
+# Subtest: 喜歡今天的保養時光 → 注意
+ok 25 - 喜歡今天的保養時光 → 注意
+  ---
+  duration_ms: 0.0913
+  type: 'test'
+  ...
+# Subtest: 量子重塑肌底 → 注意
+ok 26 - 量子重塑肌底 → 注意
+  ---
+  duration_ms: 0.0986
+  type: 'test'
+  ...
+# Subtest: 消除，皺紋 → 高
+ok 27 - 消除，皺紋 → 高
+  ---
+  duration_ms: 0.1443
+  type: 'test'
+  ...
+# Subtest: 刺激膠原蛋白\\n大量增生 → 高
+ok 28 - 刺激膠原蛋白\\n大量增生 → 高
+  ---
+  duration_ms: 0.152
+  type: 'test'
+  ...
+# Subtest: \#消除皺紋 → 高
+ok 29 - \#消除皺紋 → 高
+  ---
+  duration_ms: 0.1076
+  type: 'test'
+  ...
+# Subtest: source offsets preserve original unicode text
+ok 30 - source offsets preserve original unicode text
+  ---
+  duration_ms: 0.0907
+  type: 'test'
+  ...
+# Subtest: unknown product, platform, empty and long text rejected
+ok 31 - unknown product, platform, empty and long text rejected
+  ---
+  duration_ms: 0.2766
+  type: 'test'
+  ...
+# Subtest: related matches never certify whole-sentence equivalence
+ok 32 - related matches never certify whole-sentence equivalence
+  ---
+  duration_ms: 0.1478
+  type: 'test'
+  ...
+# Subtest: numeric change is not official support
+ok 33 - numeric change is not official support
+  ---
+  duration_ms: 0.1989
+  type: 'test'
+  ...
+# Subtest: source absence is explicitly bounded
+ok 34 - source absence is explicitly bounded
+  ---
+  duration_ms: 0.2084
+  type: 'test'
+  ...
+# Subtest: official match does not override independent legal rules
+ok 35 - official match does not override independent legal rules
+  ---
+  duration_ms: 0.9151
+  type: 'test'
+  ...
+# Subtest: historical rules never participate
+ok 36 - historical rules never participate
+  ---
+  duration_ms: 0.2743
+  type: 'test'
+  ...
+# Subtest: packaging rules do not judge social copy
+ok 37 - packaging rules do not judge social copy
+  ---
+  duration_ms: 0.2336
+  type: 'test'
+  ...
+# Subtest: images only and text with images cannot return low
+ok 38 - images only and text with images cannot return low
+  ---
+  duration_ms: 0.3663
+  type: 'test'
+  ...
+# Subtest: file count, type and size limits
+ok 39 - file count, type and size limits
+  ---
+  duration_ms: 0.1776
+  type: 'test'
+  ...
+# Subtest: every report citation resolves and pins snapshot hash
+ok 40 - every report citation resolves and pins snapshot hash
+  ---
+  duration_ms: 0.281
+  type: 'test'
+  ...
+# Subtest: Product \#0001 only and official Taiwan claim domains
+ok 41 - Product \#0001 only and official Taiwan claim domains
+  ---
+  duration_ms: 0.1261
+  type: 'test'
+  ...
+# Subtest: all dataset references and regex patterns valid
+ok 42 - all dataset references and regex patterns valid
+  ---
+  duration_ms: 0.1999
+  type: 'test'
+  ...
+# Subtest: source downloads are nonempty, correct format and hash verified
+ok 43 - source downloads are nonempty, correct format and hash verified
+  ---
+  duration_ms: 6.6522
+  type: 'test'
+  ...
+# Subtest: historical dataset is physically separated
+ok 44 - historical dataset is physically separated
+  ---
+  duration_ms: 0.3412
+  type: 'test'
+  ...
+# Subtest: evidence gaps cannot silently become verified studies
+ok 45 - evidence gaps cannot silently become verified studies
+  ---
+  duration_ms: 0.0822
+  type: 'test'
+  ...
+1..45
+# tests 45
+# suites 0
+# pass 45
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 104.4039

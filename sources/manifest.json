@@ -1,0 +1,100 @@
+[
+  {
+    "sha256": "082e08d2c5fa78807c3ecd5d07de214704c1db068f0c5e0ceca51c63152521d7",
+    "snapshot_path": "sources/amway-product.html",
+    "url": "https://www.amway.com.tw/iShare/Monthly/Inner/39830/40830",
+    "id": "amway-product",
+    "retrieved_at": "2026-09-23T05:23:21.4821626Z"
+  },
+  {
+    "sha256": "bb8877aa7ac79505ebafd95c59812d21f7302b18d3ba45cc827785f4b808d644",
+    "snapshot_path": "sources/advertising-rules.html",
+    "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCODE=L0030099",
+    "id": "advertising-rules",
+    "retrieved_at": "2026-09-23T05:23:21.9481032Z"
+  },
+  {
+    "sha256": "6586fa89ac7e9da45e2bb28f5ab211ad8c5293ab2ad2bc36db47b9990a2a3caf",
+    "snapshot_path": "sources/cosmetics-act.html",
+    "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0030013",
+    "id": "cosmetics-act",
+    "retrieved_at": "2026-09-23T05:23:22.5802964Z"
+  },
+  {
+    "sha256": "dfb9f8359a0b0d42857c4f6961b1aac7e02f3ff64150425653c1d7738d1c77c8",
+    "snapshot_path": "sources/historical-stop.html",
+    "url": "https://www.fda.gov.tw/TC/siteListContent.aspx?id=32479&sid=1894",
+    "id": "historical-stop",
+    "retrieved_at": "2026-09-23T05:23:22.9624492Z"
+  },
+  {
+    "retrieved_at": "2026-09-23T05:24:51.6593063Z",
+    "url": "https://shop.amway.com.tw/products/4438",
+    "sha256": "029f880cdf617f6503155344b9547c4be01bb433888b36414b7f85099480395c",
+    "id": "amway-shop",
+    "snapshot_path": "sources/amway-shop.html"
+  },
+  {
+    "retrieved_at": "2026-09-23T05:24:51.893584Z",
+    "url": "https://law.moj.gov.tw/LawClass/LawGetFile.ashx?FileId=0000249590&lan=C",
+    "sha256": "46306881a94b9530de5ec4613252d1ea3a67d1f250fac8f1205e3115c593a06f",
+    "id": "annex-1",
+    "snapshot_path": "sources/annex-1.pdf"
+  },
+  {
+    "retrieved_at": "2026-09-23T05:24:52.0637827Z",
+    "url": "https://law.moj.gov.tw/LawClass/LawGetFile.ashx?FileId=0000249591&lan=C",
+    "sha256": "8825815875101e06aa40c8e592995ba6bcdd2d6c7e632b1209542f99e19c9bd7",
+    "id": "annex-2",
+    "snapshot_path": "sources/annex-2.pdf"
+  },
+  {
+    "retrieved_at": "2026-09-23T05:24:52.3109712Z",
+    "url": "https://law.moj.gov.tw/LawClass/LawGetFile.ashx?FileId=0000249592&lan=C",
+    "sha256": "c3e71642186e83a13ef0422c6201d063dbc8a0311b5aca1976bd3f1d43965984",
+    "id": "annex-3",
+    "snapshot_path": "sources/annex-3.pdf"
+  },
+  {
+    "retrieved_at": "2026-09-23T05:24:52.4947077Z",
+    "url": "https://law.moj.gov.tw/LawClass/LawGetFile.ashx?FileId=0000249593&lan=C",
+    "sha256": "db73cf932b95be57414e362b6cbe35b5f27e8369d6202372a68b2ba7f3a186f4",
+    "id": "annex-4",
+    "snapshot_path": "sources/annex-4.pdf"
+  },
+  {
+    "retrieved_at": "2026-09-23T05:24:52.5773659Z",
+    "url": "https://www.fda.gov.tw/tc/includes/GetFile.ashx?cid=30792&id=f637026716036189600&type=2",
+    "sha256": "f4c4a3ddf679e13713c294ccff432df6b3df7be9bf944134d9d020cd2697207e",
+    "id": "tfda-rules",
+    "snapshot_path": "sources/tfda-rules.pdf"
+  },
+  {
+    "retrieved_at": "2026-09-23T05:24:52.9578016Z",
+    "url": "https://www.fda.gov.tw/upload/133/2015110214183996879.pdf",
+    "sha256": "c5bb8686a4fb6591d3a178a3a0e7cf37b7eddd65285959e1c530106f497d58d7",
+    "id": "historical-phrases",
+    "snapshot_path": "sources/historical-phrases.pdf"
+  },
+  {
+    "sha256": "59b324d6a94442da1c3ba6a4d5df4daa1c48c4fa44d15476a40ce126fadac44b",
+    "id": "label-notice",
+    "retrieved_at": "2026-09-23T05:38:14.6902535Z",
+    "url": "https://www.fda.gov.tw/TC/newsContent.aspx?cid=3&id=25259",
+    "snapshot_path": "sources/label-notice.html"
+  },
+  {
+    "sha256": "e0b22caaa6dd3ece7ff377fb3c81692872cbcc17cdc42960f97e775d6a985f68",
+    "id": "label-rules",
+    "retrieved_at": "2026-09-23T05:38:14.8667644Z",
+    "url": "https://www.fda.gov.tw/tc/includes/GetFile.ashx?id=f636948036356063048",
+    "snapshot_path": "sources/label-rules.pdf"
+  },
+  {
+    "sha256": "9e1183325f91d4feea795e2934927976270f17a5a04f21b77fea243c6f29e689",
+    "id": "label-draft",
+    "retrieved_at": "2026-09-23T05:38:15.2290306Z",
+    "url": "https://www.fda.gov.tw/tc/newsContent.aspx?cid=4&id=t623380",
+    "snapshot_path": "sources/label-draft.html"
+  }
+]

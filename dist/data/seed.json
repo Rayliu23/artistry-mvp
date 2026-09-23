@@ -1,0 +1,725 @@
+{
+  "dataset_version": "1.0.0",
+  "engine_version": "0.3.0",
+  "checked_at": "2026-09-23",
+  "coverage": "僅 Product #0001 的兩個安麗台灣頁面可讀文字；未涵蓋圖片、完整試驗報告或全部官網資料。",
+  "products": [
+    {
+      "id": "ART-TW-0001",
+      "number": "0001",
+      "brand": "ARTISTRY 雅芝",
+      "series": "Artistry Labs 雅芝植萃科妍",
+      "name": "A醇抗皺精華",
+      "name_en": "Pro-Retinol",
+      "product_code": "4438",
+      "volume": "30ml",
+      "market": "TW",
+      "category": "精華液",
+      "regulatory_category": "化粧水／油／面霜乳液類（MVP依產品用途暫分類）",
+      "status": "listed",
+      "official_url": "https://shop.amway.com.tw/products/4438",
+      "source_ids": [
+        "amway-shop",
+        "amway-product"
+      ],
+      "version_id": "product-0001-v1",
+      "first_seen": "2026-09-23",
+      "last_checked": "2026-09-23"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "product_id": "ART-TW-0001",
+      "text": "撫平皺紋",
+      "concept": "wrinkle_appearance",
+      "source_id": "amway-shop",
+      "locator": "商品簡介",
+      "evidence_ids": [],
+      "conditions": [],
+      "status": "current",
+      "version_id": "claims-v1"
+    },
+    {
+      "id": "C002",
+      "product_id": "ART-TW-0001",
+      "text": "膚質光滑細緻",
+      "concept": "smooth_texture",
+      "source_id": "amway-shop",
+      "locator": "商品簡介",
+      "evidence_ids": [],
+      "conditions": [],
+      "status": "current",
+      "version_id": "claims-v1"
+    },
+    {
+      "id": "C003",
+      "product_id": "ART-TW-0001",
+      "text": "重現透亮年輕",
+      "concept": "radiant_appearance",
+      "source_id": "amway-shop",
+      "locator": "商品簡介",
+      "evidence_ids": [],
+      "conditions": [],
+      "status": "current",
+      "version_id": "claims-v1"
+    },
+    {
+      "id": "C004",
+      "product_id": "ART-TW-0001",
+      "text": "釋放5倍A醇效能*",
+      "concept": "retinol_potency",
+      "source_id": "amway-shop",
+      "locator": "商品簡介，星號須連同原註解查核",
+      "evidence_ids": [
+        "E001"
+      ],
+      "conditions": [
+        "星號註解與比較基準未由本次可讀文字完整取得"
+      ],
+      "status": "current",
+      "version_id": "claims-v1"
+    },
+    {
+      "id": "C005",
+      "product_id": "ART-TW-0001",
+      "text": "7 次有感撫紋",
+      "concept": "wrinkle_appearance",
+      "source_id": "amway-product",
+      "locator": "A醇抗皺精華段落；不可挪用同頁其他產品內容",
+      "evidence_ids": [
+        "E002"
+      ],
+      "conditions": [
+        "次數不是天數或週數；試驗方法與受試者資訊未取得"
+      ],
+      "status": "current",
+      "version_id": "claims-v1"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E001",
+      "product_id": "ART-TW-0001",
+      "claim_ids": [
+        "C004"
+      ],
+      "kind": "official_marketing_statement",
+      "source_id": "amway-shop",
+      "availability": "not_obtained",
+      "summary": "可確認官方有倍數宣稱；尚未取得完整原註解、比較對象與試驗報告。不可視為已驗證功效。",
+      "study_type": null,
+      "sample_size": null,
+      "duration": null,
+      "comparator": null,
+      "result": null,
+      "limitations": [
+        "官網宣稱存在不等於證據充分"
+      ],
+      "version_id": "evidence-v1"
+    },
+    {
+      "id": "E002",
+      "product_id": "ART-TW-0001",
+      "claim_ids": [
+        "C005"
+      ],
+      "kind": "official_marketing_statement",
+      "source_id": "amway-product",
+      "availability": "not_obtained",
+      "summary": "僅保存官方次數宣稱；未取得完整測試條件，未找到可用的12週功效佐證。",
+      "study_type": null,
+      "sample_size": null,
+      "duration": null,
+      "comparator": null,
+      "result": null,
+      "limitations": [
+        "不得把7次轉成7天或12週"
+      ],
+      "version_id": "evidence-v1"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "wrinkle_appearance",
+      "patterns": [
+        "(?:淡化|撫平|撫淡|平滑|改善|減少).{0,6}(?:皺紋|細紋|紋路)",
+        "(?:皺紋|細紋|紋路).{0,6}(?:淡化|撫平|改善|減少)",
+        "撫紋"
+      ],
+      "claim_ids": [
+        "C001",
+        "C005"
+      ]
+    },
+    {
+      "id": "smooth_texture",
+      "patterns": [
+        "光滑",
+        "細緻",
+        "平滑",
+        "滑順"
+      ],
+      "claim_ids": [
+        "C002"
+      ]
+    },
+    {
+      "id": "radiant_appearance",
+      "patterns": [
+        "透亮",
+        "光澤",
+        "光采",
+        "明亮"
+      ],
+      "claim_ids": [
+        "C003"
+      ]
+    },
+    {
+      "id": "retinol_potency",
+      "patterns": [
+        "[0-9]+倍.{0,5}(?:a醇|效能)",
+        "a醇.{0,5}[0-9]+倍"
+      ],
+      "claim_ids": [
+        "C004"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": "R-COLLAGEN",
+      "status": "current",
+      "scope": "advertising",
+      "level": "高",
+      "patterns": [
+        "(?:刺激|促進|增加|激活|提升).{0,8}膠原蛋白.{0,8}(?:增生|合成|再生|生成)",
+        "膠原蛋白.{0,8}(?:增生|合成|再生|生成)"
+      ],
+      "reason": "可能涉及影響生理機能或改變身體結構的宣稱。",
+      "basis": "認定準則第3條第4款、附件一第17項",
+      "source_ids": [
+        "advertising-rules",
+        "annex-1"
+      ],
+      "interpretation": "pattern_expansion",
+      "version_id": "rules-v1"
+    },
+    {
+      "id": "R-ERASE",
+      "status": "current",
+      "scope": "advertising",
+      "level": "高",
+      "patterns": [
+        "(?:消除|去除|根除|抹除|消滅|消滅掉|除掉).{0,5}(?:皺紋|細紋|法令紋|魚尾紋|表情紋)",
+        "(?:皺紋|細紋|法令紋|魚尾紋).{0,5}(?:消失|不見|歸零|消除)",
+        "皺紋填補"
+      ],
+      "reason": "可能涉及消除皺紋等醫療效能或同等意義宣稱。",
+      "basis": "認定準則第5條、附件四第16項",
+      "source_ids": [
+        "advertising-rules",
+        "annex-4"
+      ],
+      "interpretation": "pattern_expansion",
+      "version_id": "rules-v1"
+    },
+    {
+      "id": "R-MEDICAL",
+      "status": "current",
+      "scope": "advertising",
+      "level": "高",
+      "patterns": [
+        "消炎|抑炎|治療|根治|殺菌|除疤|生髮|抗過敏",
+        "(?:修復|修護).{0,4}(?:受損|受傷).{0,3}(?:肌膚|組織|皮膚)",
+        "(?:預防|改善|減輕).{0,3}(?:皮膚炎|濕疹|酒糟|乾癬)"
+      ],
+      "reason": "可能涉及疾病、醫療效能或不適當生理機能宣稱。",
+      "basis": "認定準則第3、5條及附件一、四；依命中語意人工覆核",
+      "source_ids": [
+        "advertising-rules",
+        "annex-1",
+        "annex-4"
+      ],
+      "interpretation": "pattern_expansion",
+      "version_id": "rules-v1"
+    },
+    {
+      "id": "R-STRUCTURE",
+      "status": "current",
+      "scope": "advertising",
+      "level": "高",
+      "patterns": [
+        "(?:深入|直達|修復|重建).{0,4}(?:真皮|細胞|組織)",
+        "(?:促進|活化|刺激).{0,4}細胞"
+      ],
+      "reason": "可能把外觀保養延伸為生理機能或組織結構作用。",
+      "basis": "認定準則第3條第3、4款及附件一；本規則為語意延伸，非逐字法條",
+      "source_ids": [
+        "advertising-rules",
+        "annex-1"
+      ],
+      "interpretation": "pattern_expansion",
+      "version_id": "rules-v1"
+    },
+    {
+      "id": "R-ABSOLUTE",
+      "status": "current",
+      "scope": "advertising",
+      "level": "中度",
+      "patterns": [
+        "徹底|永久|保證|百分之百|100%|零風險|絕對|完全"
+      ],
+      "reason": "絕對化程度可能超出事實或現有佐證；需查明功效範圍與限制。",
+      "basis": "認定準則第3條第1、2款；程度詞為MVP風險提示，不是法定禁詞清單",
+      "source_ids": [
+        "advertising-rules"
+      ],
+      "interpretation": "editorial_heuristic",
+      "version_id": "rules-v1"
+    }
+  ],
+  "legal_references": [
+    {
+      "id": "LAW-10",
+      "source_id": "cosmetics-act",
+      "articles": [
+        "第3條",
+        "第10條"
+      ],
+      "status": "current",
+      "scope": "advertising",
+      "summary": "區分化粧品範圍、虛偽誇大及醫療效能。"
+    },
+    {
+      "id": "LAW-7",
+      "source_id": "cosmetics-act",
+      "articles": [
+        "第7條"
+      ],
+      "status": "current",
+      "scope": "packaging_label",
+      "summary": "容器與外包裝的品名、用途、用法、成分、業者、日期等標示義務。此MVP只預檢社群宣稱，未執行包裝標示完整性審核。"
+    },
+    {
+      "id": "LAW-CONTEXT",
+      "source_id": "advertising-rules",
+      "articles": [
+        "第2條",
+        "第3條",
+        "第4條",
+        "第5條"
+      ],
+      "status": "current",
+      "scope": "advertising",
+      "summary": "整體訊息綜合判斷、佐證充分性、種類及成分適用條件；官方宣稱符合不代表法律核准。"
+    },
+    {
+      "id": "LAW-EXAMPLES",
+      "source_id": "annex-2",
+      "articles": [
+        "附件二第六類第18項"
+      ],
+      "status": "current",
+      "scope": "advertising",
+      "summary": "淡化／撫平皺紋及細紋屬通常得使用詞句例示，仍須符合種類、品目與整體脈絡。"
+    },
+    {
+      "id": "LAW-LABEL",
+      "source_id": "label-rules",
+      "articles": [
+        "第1至11點"
+      ],
+      "status": "current",
+      "scope": "packaging_label",
+      "summary": "保存標示位置、字體、成分排列與日期方式；不將包裝標示義務套到每則社群貼文。2025修正預告僅為草案來源，本次未據其建立現行規則。"
+    }
+  ],
+  "sources": [
+    {
+      "sha256": "082e08d2c5fa78807c3ecd5d07de214704c1db068f0c5e0ceca51c63152521d7",
+      "snapshot_path": "sources/amway-product.html",
+      "url": "https://www.amway.com.tw/iShare/Monthly/Inner/39830/40830",
+      "id": "amway-product",
+      "retrieved_at": "2026-09-23T05:23:21.4821626Z",
+      "title": "安麗台灣 iShare｜植萃科妍 A醇抗皺精華段落",
+      "publisher": "安麗台灣",
+      "kind": "amway_official",
+      "status": "current",
+      "version": "1.0.0",
+      "version_id": "amway-product-v1",
+      "capture_method": "http_download",
+      "coverage": "可讀商品文字；不含圖片內文字及未取得的完整試驗報告",
+      "effective_from": null,
+      "checked_at": "2026-09-23T05:23:21.4821626Z"
+    },
+    {
+      "sha256": "bb8877aa7ac79505ebafd95c59812d21f7302b18d3ba45cc827785f4b808d644",
+      "snapshot_path": "sources/advertising-rules.html",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCODE=L0030099",
+      "id": "advertising-rules",
+      "retrieved_at": "2026-09-23T05:23:21.9481032Z",
+      "title": "化粧品標示宣傳廣告涉及虛偽誇大或醫療效能認定準則",
+      "publisher": "全國法規資料庫（衛生福利部主管法規）",
+      "kind": "government_official",
+      "status": "current",
+      "version": "1.0.0",
+      "version_id": "advertising-rules-v1",
+      "capture_method": "http_download",
+      "coverage": "官方文件快照；適用條文須逐條判讀",
+      "effective_from": "2019-07-01",
+      "checked_at": "2026-09-23T05:23:21.9481032Z"
+    },
+    {
+      "sha256": "6586fa89ac7e9da45e2bb28f5ab211ad8c5293ab2ad2bc36db47b9990a2a3caf",
+      "snapshot_path": "sources/cosmetics-act.html",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0030013",
+      "id": "cosmetics-act",
+      "retrieved_at": "2026-09-23T05:23:22.5802964Z",
+      "title": "化粧品衛生安全管理法",
+      "publisher": "全國法規資料庫（衛生福利部主管法規）",
+      "kind": "government_official",
+      "status": "current",
+      "version": "1.0.0",
+      "version_id": "cosmetics-act-v1",
+      "capture_method": "http_download",
+      "coverage": "官方文件快照；適用條文須逐條判讀",
+      "effective_from": null,
+      "checked_at": "2026-09-23T05:23:22.5802964Z"
+    },
+    {
+      "sha256": "dfb9f8359a0b0d42857c4f6961b1aac7e02f3ff64150425653c1d7738d1c77c8",
+      "snapshot_path": "sources/historical-stop.html",
+      "url": "https://www.fda.gov.tw/TC/siteListContent.aspx?id=32479&sid=1894",
+      "id": "historical-stop",
+      "retrieved_at": "2026-09-23T05:23:22.9624492Z",
+      "title": "TFDA｜舊詞句資料停止適用公告",
+      "publisher": "衛生福利部食品藥物管理署",
+      "kind": "government_official",
+      "status": "current",
+      "version": "1.0.0",
+      "version_id": "historical-stop-v1",
+      "capture_method": "http_download",
+      "coverage": "官方文件快照；適用條文須逐條判讀",
+      "effective_from": null,
+      "checked_at": "2026-09-23T05:23:22.9624492Z"
+    },
+    {
+      "retrieved_at": "2026-09-23T05:24:51.6593063Z",
+      "url": "https://shop.amway.com.tw/products/4438",
+      "sha256": "029f880cdf617f6503155344b9547c4be01bb433888b36414b7f85099480395c",
+      "id": "amway-shop",
+      "snapshot_path": "sources/amway-shop.html",
+      "title": "安麗台灣商城｜A醇抗皺精華 4438",
+      "publisher": "安麗台灣",
+      "kind": "amway_official",
+      "status": "current",
+      "version": "1.0.0",
+      "version_id": "amway-shop-v1",
+      "capture_method": "http_download",
+      "coverage": "可讀商品文字；不含圖片內文字及未取得的完整試驗報告",
+      "effective_from": null,
+      "checked_at": "2026-09-23T05:24:51.6593063Z"
+    },
+    {
+      "retrieved_at": "2026-09-23T05:24:51.893584Z",
+      "url": "https://law.moj.gov.tw/LawClass/LawGetFile.ashx?FileId=0000249590&lan=C",
+      "sha256": "46306881a94b9530de5ec4613252d1ea3a67d1f250fac8f1205e3115c593a06f",
+      "id": "annex-1",
+      "snapshot_path": "sources/annex-1.pdf",
+      "title": "現行附件一｜生理機能與身體結構詞句",
+      "publisher": "全國法規資料庫（衛生福利部主管法規）",
+      "kind": "government_official",
+      "status": "current",
+      "version": "1.0.0",
+      "version_id": "annex-1-v1",
+      "capture_method": "http_download",
+      "coverage": "官方文件快照；適用條文須逐條判讀",
+      "effective_from": null,
+      "checked_at": "2026-09-23T05:24:51.893584Z"
+    },
+    {
+      "retrieved_at": "2026-09-23T05:24:52.0637827Z",
+      "url": "https://law.moj.gov.tw/LawClass/LawGetFile.ashx?FileId=0000249591&lan=C",
+      "sha256": "8825815875101e06aa40c8e592995ba6bcdd2d6c7e632b1209542f99e19c9bd7",
+      "id": "annex-2",
+      "snapshot_path": "sources/annex-2.pdf",
+      "title": "現行附件二｜通常得使用的詞句例示",
+      "publisher": "全國法規資料庫（衛生福利部主管法規）",
+      "kind": "government_official",
+      "status": "current",
+      "version": "1.0.0",
+      "version_id": "annex-2-v1",
+      "capture_method": "http_download",
+      "coverage": "官方文件快照；適用條文須逐條判讀",
+      "effective_from": null,
+      "checked_at": "2026-09-23T05:24:52.0637827Z"
+    },
+    {
+      "retrieved_at": "2026-09-23T05:24:52.3109712Z",
+      "url": "https://law.moj.gov.tw/LawClass/LawGetFile.ashx?FileId=0000249592&lan=C",
+      "sha256": "c3e71642186e83a13ef0422c6201d063dbc8a0311b5aca1976bd3f1d43965984",
+      "id": "annex-3",
+      "snapshot_path": "sources/annex-3.pdf",
+      "title": "現行附件三｜成分生理機能詞句例示",
+      "publisher": "全國法規資料庫（衛生福利部主管法規）",
+      "kind": "government_official",
+      "status": "current",
+      "version": "1.0.0",
+      "version_id": "annex-3-v1",
+      "capture_method": "http_download",
+      "coverage": "官方文件快照；適用條文須逐條判讀",
+      "effective_from": null,
+      "checked_at": "2026-09-23T05:24:52.3109712Z"
+    },
+    {
+      "retrieved_at": "2026-09-23T05:24:52.4947077Z",
+      "url": "https://law.moj.gov.tw/LawClass/LawGetFile.ashx?FileId=0000249593&lan=C",
+      "sha256": "db73cf932b95be57414e362b6cbe35b5f27e8369d6202372a68b2ba7f3a186f4",
+      "id": "annex-4",
+      "snapshot_path": "sources/annex-4.pdf",
+      "title": "現行附件四｜醫療效能詞句",
+      "publisher": "全國法規資料庫（衛生福利部主管法規）",
+      "kind": "government_official",
+      "status": "current",
+      "version": "1.0.0",
+      "version_id": "annex-4-v1",
+      "capture_method": "http_download",
+      "coverage": "官方文件快照；適用條文須逐條判讀",
+      "effective_from": null,
+      "checked_at": "2026-09-23T05:24:52.4947077Z"
+    },
+    {
+      "retrieved_at": "2026-09-23T05:24:52.5773659Z",
+      "url": "https://www.fda.gov.tw/tc/includes/GetFile.ashx?cid=30792&id=f637026716036189600&type=2",
+      "sha256": "f4c4a3ddf679e13713c294ccff432df6b3df7be9bf944134d9d020cd2697207e",
+      "id": "tfda-rules",
+      "snapshot_path": "sources/tfda-rules.pdf",
+      "title": "TFDA｜認定準則官方發布文件",
+      "publisher": "衛生福利部食品藥物管理署",
+      "kind": "government_official",
+      "status": "current",
+      "version": "1.0.0",
+      "version_id": "tfda-rules-v1",
+      "capture_method": "http_download",
+      "coverage": "官方文件快照；適用條文須逐條判讀",
+      "effective_from": null,
+      "checked_at": "2026-09-23T05:24:52.5773659Z"
+    },
+    {
+      "retrieved_at": "2026-09-23T05:24:52.9578016Z",
+      "url": "https://www.fda.gov.tw/upload/133/2015110214183996879.pdf",
+      "sha256": "c5bb8686a4fb6591d3a178a3a0e7cf37b7eddd65285959e1c530106f497d58d7",
+      "id": "historical-phrases",
+      "snapshot_path": "sources/historical-phrases.pdf",
+      "title": "TFDA｜舊詞句列舉（歷史文件）",
+      "publisher": "衛生福利部食品藥物管理署",
+      "kind": "government_official",
+      "status": "historical_inactive",
+      "version": "1.0.0",
+      "version_id": "historical-phrases-v1",
+      "capture_method": "http_download",
+      "coverage": "官方文件快照；適用條文須逐條判讀",
+      "effective_from": null,
+      "checked_at": "2026-09-23T05:24:52.9578016Z"
+    },
+    {
+      "sha256": "59b324d6a94442da1c3ba6a4d5df4daa1c48c4fa44d15476a40ce126fadac44b",
+      "id": "label-notice",
+      "retrieved_at": "2026-09-23T05:38:14.6902535Z",
+      "url": "https://www.fda.gov.tw/TC/newsContent.aspx?cid=3&id=25259",
+      "snapshot_path": "sources/label-notice.html",
+      "title": "TFDA｜化粧品外包裝、容器、標籤或仿單之標示規定公告",
+      "publisher": "衛生福利部食品藥物管理署",
+      "kind": "government_official",
+      "status": "current",
+      "version": "1.0.0",
+      "version_id": "label-notice-v1",
+      "capture_method": "http_download",
+      "coverage": "標示法源參考；MVP不自動檢查包裝。草案不可當成已生效規範。",
+      "effective_from": "2021-07-01",
+      "checked_at": "2026-09-23T05:38:14.6902535Z"
+    },
+    {
+      "sha256": "e0b22caaa6dd3ece7ff377fb3c81692872cbcc17cdc42960f97e775d6a985f68",
+      "id": "label-rules",
+      "retrieved_at": "2026-09-23T05:38:14.8667644Z",
+      "url": "https://www.fda.gov.tw/tc/includes/GetFile.ashx?id=f636948036356063048",
+      "snapshot_path": "sources/label-rules.pdf",
+      "title": "TFDA｜化粧品包裝標示規定條文",
+      "publisher": "衛生福利部食品藥物管理署",
+      "kind": "government_official",
+      "status": "current",
+      "version": "1.0.0",
+      "version_id": "label-rules-v1",
+      "capture_method": "http_download",
+      "coverage": "標示法源參考；MVP不自動檢查包裝。草案不可當成已生效規範。",
+      "effective_from": "2021-07-01",
+      "checked_at": "2026-09-23T05:38:14.8667644Z"
+    },
+    {
+      "sha256": "9e1183325f91d4feea795e2934927976270f17a5a04f21b77fea243c6f29e689",
+      "id": "label-draft",
+      "retrieved_at": "2026-09-23T05:38:15.2290306Z",
+      "url": "https://www.fda.gov.tw/tc/newsContent.aspx?cid=4&id=t623380",
+      "snapshot_path": "sources/label-draft.html",
+      "title": "TFDA｜2025香精標示修正草案（不作現行規則）",
+      "publisher": "衛生福利部食品藥物管理署",
+      "kind": "government_official",
+      "status": "draft",
+      "version": "1.0.0",
+      "version_id": "label-draft-v1",
+      "capture_method": "http_download",
+      "coverage": "標示法源參考；MVP不自動檢查包裝。草案不可當成已生效規範。",
+      "effective_from": null,
+      "checked_at": "2026-09-23T05:38:15.2290306Z"
+    }
+  ],
+  "versions": [
+    {
+      "id": "product-0001-v1",
+      "entity_type": "product",
+      "version": "1.0.0",
+      "supersedes": null,
+      "created_at": "2026-09-23T05:31:35.273Z",
+      "change_note": "僅4438單一產品，當日官網列示；不推斷即時庫存。"
+    },
+    {
+      "id": "claims-v1",
+      "entity_type": "official_claim",
+      "version": "1.0.0",
+      "supersedes": null,
+      "created_at": "2026-09-23T05:31:35.274Z",
+      "change_note": "由兩個安麗台灣官方頁面擷取，保留原詞與條件。"
+    },
+    {
+      "id": "evidence-v1",
+      "entity_type": "evidence",
+      "version": "1.0.0",
+      "supersedes": null,
+      "created_at": "2026-09-23T05:31:35.274Z",
+      "change_note": "未知試驗資料明確為null，未臆造受試人數或12週結果。"
+    },
+    {
+      "id": "rules-v1",
+      "entity_type": "risk_rule",
+      "version": "1.0.0",
+      "supersedes": null,
+      "created_at": "2026-09-23T05:31:35.274Z",
+      "change_note": "依現行準則及附件建立有限規則，風險分級為應用程式設計。"
+    },
+    {
+      "id": "amway-product-v1",
+      "entity_type": "source",
+      "version": "1.0.0",
+      "supersedes": null,
+      "created_at": "2026-09-23T05:23:21.4821626Z",
+      "change_note": "首次官方來源快照；內容SHA-256與本地路徑見source。"
+    },
+    {
+      "id": "advertising-rules-v1",
+      "entity_type": "source",
+      "version": "1.0.0",
+      "supersedes": null,
+      "created_at": "2026-09-23T05:23:21.9481032Z",
+      "change_note": "首次官方來源快照；內容SHA-256與本地路徑見source。"
+    },
+    {
+      "id": "cosmetics-act-v1",
+      "entity_type": "source",
+      "version": "1.0.0",
+      "supersedes": null,
+      "created_at": "2026-09-23T05:23:22.5802964Z",
+      "change_note": "首次官方來源快照；內容SHA-256與本地路徑見source。"
+    },
+    {
+      "id": "historical-stop-v1",
+      "entity_type": "source",
+      "version": "1.0.0",
+      "supersedes": null,
+      "created_at": "2026-09-23T05:23:22.9624492Z",
+      "change_note": "首次官方來源快照；內容SHA-256與本地路徑見source。"
+    },
+    {
+      "id": "amway-shop-v1",
+      "entity_type": "source",
+      "version": "1.0.0",
+      "supersedes": null,
+      "created_at": "2026-09-23T05:24:51.6593063Z",
+      "change_note": "首次官方來源快照；內容SHA-256與本地路徑見source。"
+    },
+    {
+      "id": "annex-1-v1",
+      "entity_type": "source",
+      "version": "1.0.0",
+      "supersedes": null,
+      "created_at": "2026-09-23T05:24:51.893584Z",
+      "change_note": "首次官方來源快照；內容SHA-256與本地路徑見source。"
+    },
+    {
+      "id": "annex-2-v1",
+      "entity_type": "source",
+      "version": "1.0.0",
+      "supersedes": null,
+      "created_at": "2026-09-23T05:24:52.0637827Z",
+      "change_note": "首次官方來源快照；內容SHA-256與本地路徑見source。"
+    },
+    {
+      "id": "annex-3-v1",
+      "entity_type": "source",
+      "version": "1.0.0",
+      "supersedes": null,
+      "created_at": "2026-09-23T05:24:52.3109712Z",
+      "change_note": "首次官方來源快照；內容SHA-256與本地路徑見source。"
+    },
+    {
+      "id": "annex-4-v1",
+      "entity_type": "source",
+      "version": "1.0.0",
+      "supersedes": null,
+      "created_at": "2026-09-23T05:24:52.4947077Z",
+      "change_note": "首次官方來源快照；內容SHA-256與本地路徑見source。"
+    },
+    {
+      "id": "tfda-rules-v1",
+      "entity_type": "source",
+      "version": "1.0.0",
+      "supersedes": null,
+      "created_at": "2026-09-23T05:24:52.5773659Z",
+      "change_note": "首次官方來源快照；內容SHA-256與本地路徑見source。"
+    },
+    {
+      "id": "historical-phrases-v1",
+      "entity_type": "source",
+      "version": "1.0.0",
+      "supersedes": null,
+      "created_at": "2026-09-23T05:24:52.9578016Z",
+      "change_note": "首次官方來源快照；內容SHA-256與本地路徑見source。"
+    },
+    {
+      "id": "label-notice-v1",
+      "entity_type": "source",
+      "version": "1.0.0",
+      "supersedes": null,
+      "created_at": "2026-09-23T05:38:14.6902535Z",
+      "change_note": "保存標示規定與草案效力區分。"
+    },
+    {
+      "id": "label-rules-v1",
+      "entity_type": "source",
+      "version": "1.0.0",
+      "supersedes": null,
+      "created_at": "2026-09-23T05:38:14.8667644Z",
+      "change_note": "保存標示規定與草案效力區分。"
+    },
+    {
+      "id": "label-draft-v1",
+      "entity_type": "source",
+      "version": "1.0.0",
+      "supersedes": null,
+      "created_at": "2026-09-23T05:38:15.2290306Z",
+      "change_note": "保存標示規定與草案效力區分。"
+    }
+  ]
+}
